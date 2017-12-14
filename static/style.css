@@ -1,0 +1,70 @@
+div.header
+{
+	background: #1f1f22;
+	font-family: Michroma;
+}
+div.header h1, h2, h3
+{
+	color: white;
+	text-align: left;
+}
+div.header a
+{
+	color: white;
+}
+div.header a:hover
+{
+	color: #6f6f75;
+}
+div.header nav
+{
+	background: #6f6f75;
+	text-align: center;
+	color: white;
+}
+div.header span
+{
+	padding-left: 5em;
+	padding-right: 5em;
+}
+div.header span:hover
+{
+	background: #fc6a21;
+	border: 2px solid white;
+}
+
+
+body
+{
+	font-family: Michroma;
+	background: #6f6f75;
+	color: white;
+	margin: 0;
+}
+
+div.slides
+{
+	height: 80vh;
+	width: 100%;
+	transition: background-image 1s ease-in-out;
+	background: url("jordan.jpg") center no-repeat;
+}
+div.slides:hover
+{
+	background: url("tbs.jpg") center no-repeat;
+}
+
+div.footer
+{
+	background: #1f1f22;
+	font-family: Michroma;
+}
+div.footer h1, h2, h3, h4, h5, p
+{
+	color: white;
+	text-align: center;
+}
+div.divider
+{
+	background: #fc6a21;
+}

@@ -1,0 +1,67 @@
+.top
+{
+	background-color: black;
+	text-align: center;
+	height: 40vh;
+	width: 100%;
+}
+.bottom
+{
+	display: none;
+	height: relative;
+	overflow: hidden;
+	color: black;
+}
+#project1
+{
+	position: relative;
+	height: 40vh;
+	width: 100%;
+	margin: 0 auto;
+}
+#project1 div
+{
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+#project1 div.transparent
+{
+	opacity: 0;
+}
+#project1_onclick
+{
+	cursor:pointer;
+}
+.transparent
+{
+	opacity: 0;
+}
+
+#project2
+{
+	position: relative;
+	height: 40vh;
+	width: 100%;
+	margin: 0 auto;
+}
+#project2 div
+{
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+#project2 div.transparent
+{
+	opacity: 0;
+}
+#project2_onclick
+{
+	cursor:pointer;
+}

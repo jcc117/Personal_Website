@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script type="text/javascript" src="{{url_for('static', filename='functions.js')}}"></script>
+	<link href={{url_for('static', filename = 'style.css')}} type='text/css' rel='stylesheet'/>
+	<link rel="icon" href={{url_for('static', filename = 'icon.png')}} type="image/x-icon"/>
+	<link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet'>
+	
+	<title>Jordan's Site</title>
+	
+	
+	{% block head %}
+	{% endblock %}
+	
+</head>
+<body>
+<div class="header">
+		<h1>Jordan C. Carr</h1>
+		<nav>
+			<a href="{{url_for('home')}}"><span>Home</span></a>
+			<a href="{{url_for('about')}}"><span>About Me</span></a>
+			<a href="{{url_for('education')}}"><span>Education</span></a>
+			<a href="{{url_for('experience')}}"><span>Experience</span></a>
+			<a href="{{url_for('projects')}}"><span>Projects</span></a>
+			<a href="{{url_for('links')}}"><span>Links</span></a>
+		</nav>
+		<br />
+	</div>
+{% block body %}
+{% endblock %}
+{% block footer %}
+	<div class="footer">
+	<div class="divider"><br /></div>
+		<h3>Contact Information</h3>
+		<p>jcarr1624@gmail.com<br />412-848-0447</p>
+	</div>
+{% endblock %}
+</body>
+</html>

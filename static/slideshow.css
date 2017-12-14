@@ -1,0 +1,52 @@
+.slide
+{
+	height: 80vh;
+	overflow: hidden;
+}
+.img1
+{
+	background: url('jordan.jpg') center no-repeat;
+	height: 80vh;
+	overflow: hidden;
+}
+.img2
+{
+	background: url('tbs.jpg') center no-repeat;
+	height: 80vh;
+	overflow: hidden;
+}
+.img3
+{
+	background: url('jpnse.jpg') center no-repeat;
+	height: 80vh;
+	overflow: hidden;
+}
+.slide div
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	animation-name: imageFade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 18s;
+}
+@keyframes imageFade
+{
+	0% { opacity:1; }
+	45% { opacity: 1; }
+	55% { opacity: 0; }
+	100% { opacity: 0; }
+}
+.slide div:nth-of-type(1)
+{
+	animation-delay: 12s;
+}
+.slide div:nth-of-type(2)
+{
+	animation-delay: 6s;
+}
+.slide div:nth-of-type(3)
+{
+	animation-delay: 0s
+}
