@@ -68,3 +68,15 @@ div.divider
 {
 	background: #fc6a21;
 }
+
+span.linkbox
+{
+	height: 80vh;
+	width: 33%;
+	text-align: center;
+}
+span.linkbox img
+{
+	display: block;
+	margin: 0 auto;
+}

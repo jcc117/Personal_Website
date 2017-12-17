@@ -1,1 +1,17 @@
 {% extends "base.html" %}
+{% block body %}
+<nav>
+	<span class="linkbox">
+		<a href="https://github.com/jcc117"><img src={{url_for('static', filename = 'github.png')}}></a>
+		<p>GitHub</p>
+	</span>
+	<span class="linkbox">
+		<a href="https://www.facebook.com/jordan.carr.54"><img src={{url_for('static', filename = 'facebook.png')}}></a>
+		<p>Facebook</p>
+	</span>
+	<span class="linkbox">
+		<a href="https://www.linkedin.com/in/jordan-carr-4b5954135/"><img src={{url_for('static', filename = 'linkedin.png')}}></a>
+		<p>LinkedIn</p>
+	</span>
+</nav>
+{% endblock %}
